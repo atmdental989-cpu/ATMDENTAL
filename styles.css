@@ -25,3 +25,9 @@
 .manage-steps span{font-size:10px;color:#1682a8;display:flex;gap:10px;align-items:center}
 .manage-steps b{font-size:11px;color:#294354}
 @media(max-width:650px){.offers-banner{padding:16px;align-items:flex-start;flex-direction:column;gap:12px}.offers-banner h3{font-size:17px}.manage-note{padding-top:34px;padding-bottom:38px;align-items:flex-start;flex-direction:column;gap:20px}.manage-steps{gap:8px}}
+.atm-logo {
+  width: 150px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+}
