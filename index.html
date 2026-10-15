@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#073b66">
+  <meta name="description" content="Browse dental materials, endodontic products, instruments and clinic essentials from ATM Dental, Kozhikode.">
+  <title>ATM Dental | Dental Supplies, Made Simple</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">Dental supplies for professionals <span>•</span> Kozhikode, Kerala</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="ATM Dental home">
+      <span class="brand-mark">ATM</span>
+      <span class="brand-copy"><strong>ATM DENTAL</strong><small>Dental supplies & solutions</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#products">Products</a><a href="#about">About us</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#products">Browse products <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR DENTAL SUPPLY PARTNER</div>
+        <h1>Everything your practice needs.<br><em>One trusted source.</em></h1>
+        <p>Explore dental materials, endodontic essentials, instruments and everyday clinic supplies. Ask us for current availability and the right price for your order.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#products">Explore products <span>↓</span></a>
+          <a class="button button-light" href="https://wa.me/918590888979?text=Hello%20ATM%20Dental%2C%20I%20would%20like%20to%20enquire%20about%20dental%20products." target="_blank" rel="noopener">Chat on WhatsApp <span>↗</span></a>
+        </div>
+        <div class="hero-note"><span class="check">✓</span> Professional service <span class="note-divider">|</span> Convenient ordering</div>
+      </div>
+      <div class="hero-visual" aria-label="Dental instruments illustration">
+        <div class="visual-orb orb-one"></div><div class="visual-orb orb-two"></div>
+        <div class="visual-label label-top"><span class="label-icon">✦</span><span><b>Dental essentials</b><small>For your daily practice</small></span></div>
+        <div class="product-illustration">
+          <div class="tube tube-back"><span></span></div>
+          <div class="instrument instrument-one"><i></i></div>
+          <div class="instrument instrument-two"><i></i></div>
+          <div class="dental-box"><div class="box-logo">ATM<span> DENTAL</span></div><div class="box-line"></div><div class="box-circle">+</div><small>DENTAL CARE</small></div>
+          <div class="floating-tooth">✧</div>
+        </div>
+        <div class="visual-label label-bottom"><span class="round-icon">✓</span><span><b>Simple ordering</b><small>Direct WhatsApp enquiry</small></span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Store highlights">
+      <div><span class="trust-icon">⌕</span><span><b>Easy discovery</b><small>Find products quickly</small></span></div>
+      <div><span class="trust-icon">₹</span><span><b>Clear pricing</b><small>Indicative prices shown</small></span></div>
+      <div><span class="trust-icon">↗</span><span><b>Direct enquiries</b><small>Order through WhatsApp</small></span></div>
+    </section>
+
+    <section class="catalogue section-wrap" id="products">
+      <div class="section-heading">
+        <div><div class="eyebrow">OUR CATALOGUE</div><h2>Find your <em>essentials.</em></h2><p>Browse the catalogue and message us about any item.</p></div>
+        <div class="catalogue-count"><strong id="result-count">12</strong><span>sample items</span></div>
+      </div>
+      <div class="search-row">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search products, brands or categories..." autocomplete="off"><kbd>Search</kbd></label>
+        <label class="sort-box"><span>Sort by</span><select id="sort-select"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="az">Name: A–Z</option></select></label>
+      </div>
+      <div class="category-list" id="category-list" aria-label="Filter by category">
+        <button class="category-chip active" data-category="All">All products <span>12</span></button>
+        <button class="category-chip" data-category="Endodontics">Endodontics</button>
+        <button class="category-chip" data-category="Restorative">Restorative</button>
+        <button class="category-chip" data-category="Instruments">Instruments</button>
+        <button class="category-chip" data-category="Disposables">Disposables</button>
+        <button class="category-chip" data-category="Impression">Impression</button>
+        <button class="category-chip" data-category="Offers">Special offers</button>
+      </div>
+      <div class="offers-banner"><div><span class="offers-kicker">LIMITED-TIME DEALS</span><h3>Special offers for your practice</h3><p>Look for offer badges and reduced prices on selected products.</p></div><a href="#products" class="offers-jump">Shop offers ↓</a></div>
+      <div class="demo-notice"><span>ⓘ</span> <div><b>Sample catalogue:</b> Product names and prices are examples for website setup. Please replace them with ATM Dental's verified products, prices and images before publishing.</div></div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden><div>⌕</div><h3>No products found</h3><p>Try a different search or category.</p><button class="button button-light" id="clear-filters">Clear filters</button></div>
+      <div class="catalogue-footer"><span>Need something not listed?</span><a href="https://wa.me/918590888979?text=Hello%20ATM%20Dental%2C%20I%20am%20looking%20for%20a%20product%20not%20listed%20on%20your%20website." target="_blank" rel="noopener">Ask us on WhatsApp ↗</a></div>
+    </section>
+
+    <section class="why-section" id="about">
+      <div class="why-inner">
+        <div class="why-copy"><div class="eyebrow">WHY ATM DENTAL</div><h2>Supplies made <em>simple.</em></h2><p>We help dental professionals find the products they need without the hassle. Browse online, enquire directly, and confirm availability with our team.</p><a class="text-link" href="#contact">Get in touch <span>↗</span></a></div>
+        <div class="why-points">
+          <div class="why-point"><span>01</span><div><b>Browse at your convenience</b><p>Explore the catalogue from your phone or computer.</p></div></div>
+          <div class="why-point"><span>02</span><div><b>Confirm the details directly</b><p>Check stock, current pricing and delivery with our team.</p></div></div>
+          <div class="why-point"><span>03</span><div><b>Order with confidence</b><p>Send a product enquiry straight to WhatsApp.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <div class="contact-card">
+        <div><div class="eyebrow">LET'S CONNECT</div><h2>Looking for a specific product?</h2><p>Tell us what your practice needs. We'll help you check availability and pricing.</p></div>
+        <a class="button button-white" href="https://wa.me/918590888979?text=Hello%20ATM%20Dental%2C%20I%20would%20like%20to%20enquire%20about%20dental%20supplies." target="_blank" rel="noopener">Enquire on WhatsApp <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <section class="manage-note section-wrap" id="manage-products"><div><span class="eyebrow">EASY UPDATES</span><h2>Change products and prices yourself.</h2><p>Open <code>products.js</code> to edit product names, categories, prices and offers. See the included README for simple instructions.</p></div><div class="manage-steps"><span>01 <b>Edit products.js</b></span><span>02 <b>Save the file</b></span><span>03 <b>Upload the updated file</b></span></div></section>
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#"><span class="brand-mark">ATM</span><span class="brand-copy"><strong>ATM DENTAL</strong><small>Dental supplies & solutions</small></span></a>
+    <div class="footer-details"><span>Kozhikode, Kerala</span><a href="tel:+918590888979">+91 85908 88979</a><a href="https://wa.me/918590888979" target="_blank" rel="noopener">WhatsApp us ↗</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> ATM Dental. All rights reserved.</span><span>Product details and prices should be confirmed before ordering.</span></div>
+  </footer>
+  <a class="floating-whatsapp" href="https://wa.me/918590888979?text=Hello%20ATM%20Dental%2C%20I%20have%20a%20product%20enquiry." target="_blank" rel="noopener" aria-label="Chat with ATM Dental on WhatsApp"><span>◔</span> WhatsApp</a>
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
