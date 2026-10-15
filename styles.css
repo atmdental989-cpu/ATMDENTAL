@@ -36,5 +36,6 @@
   width: 150px;
   height: 60px;
   object-fit: contain;
+  margin-left:- 20px;
   display: block;
 }
