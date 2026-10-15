@@ -28,8 +28,8 @@
 .atm-logo {
   width: 150px;
   height: 60px;
-  margin-left:-10px;
   object-fit: contain;
+  margin-left:- 10px;
   display: block;
 }
 .footer-logo {
